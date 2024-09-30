@@ -1,72 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Web Techniques Cheat Sheet</title>
-</head>
-<body>
-    <h1>Basic Web Techniques Cheat Sheet</h1>
+# Sample Questions - Basic Web Techniques
 
-    <h2>1. World Wide Web (WWW)</h2>
-    <p>
-        <strong>Three Essential Technologies:</strong> HTML, HTTP, URLs, hypertext navigation, and client-server architecture made the World Wide Web possible, leading to the sharing of information globally.
-    </p>
-    <p>
-        <strong>Addressing Resources:</strong> Resources like HTML pages and images are addressed using URLs. A URL specifies the protocol, domain, and path to the resource on a server.
-    </p>
-    <p>
-        <strong>General Components of a URL:</strong>
-        <ul>
-            <li><strong>Scheme:</strong> Specifies the protocol (e.g., http or https).</li>
-            <li><strong>Domain:</strong> The web address (e.g., www.example.com).</li>
-            <li><strong>Path:</strong> The location of the file or resource on the server.</li>
-            <li><strong>Port:</strong> Optional part specifying the server's port.</li>
-            <li><strong>Query/Fragment:</strong> Optional parameters or fragment identifiers.</li>
-        </ul>
-    </p>
+## Word Wide Web General
 
-    <h2>2. Web Server</h2>
-    <p>
-        <strong>What is a Web Server?</strong> A web server is a computer system that hosts websites and delivers content to users over the internet.
-    </p>
-    <p>
-        <strong>Web Server Function:</strong> It delivers web content to web browsers when requested via HTTP or HTTPS protocols.
-    </p>
-    <p>
-        <strong>Storing Content:</strong> Content such as HTML files, CSS sheets, and images are stored in the server's file system and accessed using a URL when requested by a user.
-    </p>
-    <p>
-        <strong>Describing Webpage Content:</strong> Content is described using HTML elements, metadata, CSS for styling, and JavaScript for interactivity.
-    </p>
+1. What are the most essential technologies that made the World Wide Web such a success?  
+Answer: HTML, HTTP, urls, hypertext navigation and client to server architecture made the WWW possible which made information sharing and global access.
+2. How are resources (html pages, images, etc) addressed in the web?  
+Answer: urls specify the protocol, domain and path to HTML pages and images on said server.
+3. What are the general components of a url?  
+Answer: The general components of a url are: the scheme, domain, path, port, query / fragment
 
-    <h2>3. Web Client</h2>
-    <p>
-        <strong>What is a Web Client?</strong> A web client, typically a web browser, communicates with web servers to fetch and display content from the internet.
-    </p>
-    <p>
-        <strong>Web Client Function:</strong> It sends requests to web servers and processes responses (e.g., HTML) to display content to the user.
-    </p>
-    <p>
-        <strong>Web Client vs. Web Browser:</strong> A web browser is a type of web client used for displaying web content. Not all web clients are web browsers, but all browsers are web clients.
-    </p>
+## Web Server
 
-    <h2>4. Hello World</h2>
-    <p>
-        <strong>The &lt;head&gt; Element:</strong> The head element contains metadata about the document, which is not directly displayed on the webpage.
-    </p>
-    <p>
-        <strong>&lt;!DOCTYPE html&gt; Declaration:</strong> This is not an HTML tag, but a declaration that tells the browser what type of document it is. It is required for all HTML documents.
-    </p>
-    <p>
-        <strong>Top Most Elements Inside &lt;html&gt;:</strong> The two top elements inside the HTML element are &lt;head&gt; and &lt;body&gt;.
-    </p>
-    <p>
-        <strong>Emphasizing Text:</strong> Text can be emphasized using the &lt;em&gt; element, which is displayed in italics in the browser.
-    </p>
-    <p>
-        <strong>Marking Important Text:</strong> The &lt;strong&gt; element is used to mark important text, which is displayed in bold in the browser.
-    </p>
+1. What is a web server?  
+Answer: Web servers are computer systems which host websites.
+2. What does a web server?  
+Answer: It delivers web content to other users browsers via the internet when they request it typically using http/https protocols.
+3. How can content be stored on a web server?  
+Answer: Files like html files, css sheets images etc.. are stored are stored in the server's file system and when user requests said files, it is accessed with url.
+4. How is content in webpages described?  
+Answer: Content is shown in several way using html elements, metadata (html), css and javascript.
 
-</body>
-</html>
+## Web Client
+
+1. What is a web client?  
+Answer: A web client software communicates with web servers to get content from the internet. Mostly web clients are web browsers.
+2. What does a web client?  
+Answer: It sends requests to web servers and gets/interpretes the responses for example in html to view content for the user
+3. Web Client and Web Browser is the same  
+Answer: A web browser is only a type of web client which is used to display web content on the internet. Not all web clients are web browsers but all web browsers are web clients.
+
+## Hello World
+
+1. What is the html head element?  
+Answer: It is the container for metadata (data of data which tells the info about the html document but is not displayed)
+2. What does ``<!DOCTYPE` html>`` mean?  
+Answer: This is not a html tag and all html documents must start with this declaration. It tells the browser what kind of document it should expect.
+3. What are the two top most elements within the html element?  
+Answer: The two top most elements are `<head>` and `<body>` (without counting the `<html>`).
+4. How to emphasize a text and how is it displayed in the browser?  
+Answer: We emphasize text with the `<em>` tag in between the text, it is typically displayed in italic.
+5. How to mark up important ext and how is it displayed in the browser?  
+Answer: We use `<strong>` tag to mark important text and it is displayed normally in bold.
