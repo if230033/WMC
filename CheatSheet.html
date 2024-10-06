@@ -68,5 +68,123 @@
         <strong>Marking Important Text:</strong> The &lt;strong&gt; element is used to mark important text, which is displayed in bold in the browser.
     </p>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        p, ul {
+            font-size: 1.1em;
+        }
+        code {
+            background-color: #e1e1e1;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML and CSS Cheat Sheet</h1>
+
+    <h2>HTML Basics</h2>
+    <p><strong>HTML Basics:</strong> The foundational structure of an HTML document consists of elements like <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code>. The document starts with a <code>&lt;!DOCTYPE html&gt;</code> declaration.</p>
+
+    <h2>HTML Elements</h2>
+    <p>
+        <strong>Elements:</strong> HTML elements consist of opening and closing tags (e.g., <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code>) and content between them. Some elements, like images, are <span class="highlight">void elements</span>, meaning they don't have closing tags.
+    </p>
+
+    <h2>HTML Attributes</h2>
+    <p><strong>Attributes:</strong> HTML attributes provide additional information about elements. For example, <code>&lt;a href="url"&gt;</code> specifies the link's destination.</p>
+
+    <h2>Headings</h2>
+    <p><strong>Headings:</strong> HTML provides six levels of headings, from <code>&lt;h1&gt;</code> (the most important) to <code>&lt;h6&gt;</code> (the least important).</p>
+
+    <h2>Paragraphs and Line Breaks</h2>
+    <p>
+        <strong>Paragraphs:</strong> Use the <code>&lt;p&gt;</code> element to create paragraphs. <span class="highlight">Avoid excessive use of <code>&lt;br&gt;</code></span> for line breaks; use paragraphs to create clean separations between text blocks.
+    </p>
+
+    <h2>Comments</h2>
+    <p><strong>Comments:</strong> Comments in HTML are written between <code>&lt;!-- --&gt;</code> and are not displayed in the browser.</p>
+
+    <h2>Links</h2>
+    <p><strong>Links:</strong> Use the <code>&lt;a&gt;</code> element to create links. Example: <code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code>.</p>
+
+    <h2>Images</h2>
+    <p>
+        <strong>Images:</strong> Use the <code>&lt;img&gt;</code> element to display images. Include the <code>alt</code> attribute to provide alternate text for accessibility and SEO. Example:
+        <code>&lt;img src="image.jpg" alt="Description of image"&gt;</code>.
+    </p>
+
+    <h2>Head Element</h2>
+    <p>
+        <strong>Head Element:</strong> The <code>&lt;head&gt;</code> element contains metadata such as the title, character encoding, and other information. Example: <code>&lt;meta charset="UTF-8"&gt;</code>.
+    </p>
+
+    <h2>CSS Basics</h2>
+    <p><strong>CSS Syntax:</strong> A CSS rule consists of a selector and a declaration block. Example:</p>
+    <code>
+        p {<br>
+        &nbsp;&nbsp;color: blue;<br>
+        &nbsp;&nbsp;font-size: 16px;<br>
+        }
+    </code>
+
+    <h2>CSS Colors</h2>
+    <p><strong>Colors:</strong> Colors can be defined using names (e.g., <code>blue</code>), hexadecimal codes (e.g., <code>#0000FF</code>), or RGB values.</p>
+
+    <h2>CSS Backgrounds</h2>
+    <ul>
+        <li><strong>Background Color:</strong> Define a background color using <code>background-color</code>.</li>
+        <li><strong>Background Image:</strong> Set a background image with <code>background-image: url('image.jpg')</code>. You can control its repetition and positioning.</li>
+    </ul>
+
+    <h2>CSS Text Properties</h2>
+    <ul>
+        <li><strong>Text Color:</strong> Set text color with <code>color</code>.</li>
+        <li><strong>Text Alignment:</strong> Align text using <code>text-align</code> (e.g., left, right, center).</li>
+        <li><strong>Text Decoration:</strong> Use <code>text-decoration</code> for underline, overline, etc.</li>
+        <li><strong>Text Transformation:</strong> Transform text to uppercase, lowercase, or capitalize using <code>text-transform</code>.</li>
+    </ul>
+
+    <h2>CSS Fonts</h2>
+    <ul>
+        <li><strong>Font Family:</strong> Define font family using <code>font-family</code>, such as <code>sans-serif</code> or <code>serif</code>.</li>
+        <li><strong>Font Size:</strong> Set font size using pixels (e.g., <code>16px</code>) or relative units (e.g., <code>1em</code>).</li>
+        <li><strong>Font Weight:</strong> Define the thickness of text using <code>font-weight</code>.</li>
+    </ul>
+
+    <h2>Styling Links</h2>
+    <p><strong>Link Styling:</strong> You can style links using pseudo-classes like <code>:hover</code>, <code>:visited</code>, and <code>:active</code>.</p>
+
+    <h2>CSS Combinators</h2>
+    <p><strong>Combinators:</strong> CSS combinators like descendant (<code>div p</code>), child (<code>div > p</code>), and sibling (<code>h1 + p</code>) allow more specific targeting of elements.</p>
+
+    <h2>Pseudo-Classes</h2>
+    <ul>
+        <li><strong>Anchor Pseudo-Classes:</strong> <code>:link</code>, <code>:visited</code>, <code>:hover</code>, <code>:active</code> for styling link states.</li>
+        <li><strong>:first-child:</strong> Target the first child element of its parent using <code>:first-child</code>.</li>
+    </ul>
+
 </body>
 </html>
